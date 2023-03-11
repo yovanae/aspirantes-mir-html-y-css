@@ -1,0 +1,40 @@
+.formulario {
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#bd09b7, #6b4cf5);
+    box-shadow: 6px 5px 13px 5px rgba(10, 10, 10, 0.38);
+    font-family: sans-serif;
+}
+
+h2,
+label {
+    color: #fff;
+}
+
+input,
+select {
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+.div-boton {
+    display: flex;
+    justify-content: end;
+}
+
+button {
+    width: 75px;
+    padding: 5px 15px;
+    border-radius: 6px;
+    border: none;
+}
+
+@media screen and (max-width: 500px) {
+    .formulario {
+        width: 100%;
+    }
+}
